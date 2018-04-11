@@ -24,7 +24,11 @@ void casos_de_prueba(){
 
     cout << "TEST CASES" << endl;
     // Agrega tus casos de prueba
-
+    cout << "test_data" << "expected" <<  "actual result" << endl;
+    cout << "3"         << "30"  <<pago_estacionamiento(3)<< endl;
+    cout << "8"         << "30"  <<pago_estacionamiento(8)<< endl;
+    cout << "16"        << "30" <<pago_estacionamiento(16)<< endl;
+    cout << "-5"        << "30" <<pago_estacionamiento(-5)<< endl;
 
 
     cout << endl;
